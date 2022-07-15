@@ -49,7 +49,7 @@ In particular, we will see:
   ```
 - Make a virtual environment (recommended)
   ```
-  $ python3 -m venv sbst2022
+  $ python3 -m venv iitgn2022
   $ cd sbt2022
   $ source bin/activate
   ```
@@ -59,11 +59,11 @@ In particular, we will see:
   ```
 - Checkout this repository
   ```
-  git clone git@github.com:vrthra/SBST22-tutorial.git
+  git clone git@github.com:vrthra-forks/iitg-talk.git
   ```
 - Start the Jupyter server in the repository directory
   ```
-  $ cd SBST22-tutorial
+  $ cd iitgn-talk
   $ jupyter-notebook
   ```
   This opens a browser window at http://localhost:8888/tree
