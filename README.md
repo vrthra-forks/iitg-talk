@@ -1,6 +1,6 @@
-# SBST22 Tutorial
+# IIT Gandhinagar Talk: "Building Blocks for Fuzzing"
 
-This is the repository for the [IIT Gandhinagar]() talk on " Building Blocks for Fuzzing".
+This is the repository for the [IIT Gandhinagar]() talk on "Building Blocks for Fuzzing".
 
 The focus of this talk is to provide a suite of tools for use in fuzzing.
 That is, we mine the input specifications from
