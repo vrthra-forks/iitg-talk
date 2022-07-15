@@ -1,19 +1,16 @@
 # SBST22 Tutorial
 
-This is the repository for the [SBST 2022 tutorial](https://sbst22.github.io/keynotes/) on "Learning and Refining Input Grammars for Effective Fuzzing".
+This is the repository for the [IIT Gandhinagar]() talk on " Building Blocks for Fuzzing".
 
-One of the concerns in search based software engineering is the search space.
-Our algorithms can be more performant if we can constrain this search space.
-Hence, the focus of this tutorial is to provide a suite of tools that can be
-used in conjunction with search based software engineering to constrain the
-search space in testing. That is, we mine the input specifications from
+The focus of this talk is to provide a suite of tools for use in fuzzing.
+That is, we mine the input specifications from
 parsers, which are then used to constrain the inputs to be provided to the
 program under test. We constrain this space further by specifying that only
 inputs belonging to patterns that are known to cause certain behaviors should
 be generated.
 In particular, we will see:
 
-1. How to generate inputs using [GA](https://en.wikipedia.org/wiki/Genetic_algorithm) when the syntax specification is not available
+1. How to generate inputs using monotonic failure when the syntax specification is not available
 2. How to use the sample inputs for mining the syntax specification (context-free grammar) of a given parser
 3. Given such a specification, how to abstract any input that causes a bug resulting in a bug specification
 4. How to combine the specifications of such bugs using *and*, *or* and *negate* for complex bug specifications. For example, one can specify that **each input** produced by a fuzzer should contain input patterns that induce bugs A, B, and either C or D but should not contain bug E.
